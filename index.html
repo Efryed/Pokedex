@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/estilos.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png">
+	<title>Pokedex</title>
+</head>
+<body>
+	<div id="container">
+		<div id="interfaz">
+			<div id="item1" class="screw"><div></div></div>
+			<div id="item2" class="screw"><div></div></div>
+			<div id="item3" class="screw"><div></div></div>
+			<div id="item4" class="screw"><div></div></div>
+			<form id="BusquedaForm" action="">
+				<input type="text" name="inputBuscar" placeholder="#####">
+				<button><i class="fa fa-search fa-2x"></i></button>
+			</form>
+			<div id="avatar">
+				<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="">
+				<div>
+					
+				</div>
+			</div>
+			<div id="types">
+				<ul>
+					<li>poison</li>
+					<li>grass</li>
+				</ul>
+			</div>
+			<div id="nav">
+				<ul>
+					<li id="button-desc"><i class="fa fa-list"></i></li>
+					<li id="button-stats"><i class="fa fa-pie-chart"></i></li>
+					<li id="button-info"><i class="fa fa-info-circle"></i></li>
+				</ul>
+			</div>
+			<div id="panel">
+				<div id="description">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus saepe cum laudantium aut, modi similique facilis labore magnam, accusantium doloribus eligendi recusandae, nisi explicabo repellendus suscipit itaque at id nulla!</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus saepe cum laudantium aut, modi similique facilis labore magnam, accusantium doloribus eligendi recusandae, nisi explicabo repellendus suscipit itaque at id nulla!</p>
+				</div>
+
+				<div id="stats">
+					<div id="hp" class="stat-container">
+						<label>HP</label>
+						<div class="progress">
+							<div></div>
+						</div>
+					</div>
+					<div id="attack" class="stat-container">
+						<label>Attack</label>
+						<div class="progress">
+							<div></div>
+						</div>
+					</div>
+					<div id="defense" class="stat-container">
+						<label>Defense</label>
+						<div class="progress">
+							<div></div>
+						</div>
+					</div>
+					<div id="spA" class="stat-container">
+						<label>Sp. Attack</label>
+						<div class="progress">
+							<div></div>
+						</div>
+					</div>
+					<div id="spD" class="stat-container">
+						<label>Sp. Defense</label>
+						<div class="progress">
+							<div></div>
+						</div>
+					</div>
+					<div id="speed" class="stat-container">
+						<label>Speed</label>
+						<div class="progress">
+							<div></div>
+						</div>
+					</div>
+				</div>
+
+				<div id="info">
+					<div class="info-container">
+						<label>Height:</label>
+						<label id="info-height">12</label>
+					</div>
+					<div class="info-container">
+						<label>Weight:</label>
+						<label id="info-weight">20</label>
+					</div>
+					<div class="info-container">
+						<label>Habitat:</label>
+						<label id="info-habitat">urban</label>
+					</div>
+					<div class="info-container">
+						<label>Hability:</label>
+						<ul id="info-hability">
+							<li>move1</li>
+							<li>move2</li>
+							<li>move3</li>
+						</ul>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</div>	
+	<script src="./js/eventos.js"></script>	
+	<script src="./js/app.js"></script>
+</body>
+</html>
