@@ -95,7 +95,8 @@ body{
 }
 
 #avatar img{
-	width: 80%;
+	width: auto;
+    	height: 100%;
 }
 
 #avatar div{
