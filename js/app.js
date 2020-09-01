@@ -69,7 +69,7 @@ const OptenerPokemon = (pokemon)=>{
 			GuardarDatosLocalStorage(pokemonTemp);
 			RellenarCampos(pokemonTemp);
 		}).catch(error=>{
-			console.log(error);
+			console.log('algún día arreglare esto');
 		});
 
 }
