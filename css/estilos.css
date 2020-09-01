@@ -61,10 +61,12 @@ body{
 #interfaz form input[name='inputBuscar']{
 	padding: 0.7rem;
 	border: none;
-	border-bottom: 0.16rem solid var(--color8);
-	background: none;
 	margin-right: 0.32rem; 
 	font-size: 1.2rem;
+}
+
+#interfaz form input[name='inputBuscar']:focus{
+	outline: none;
 }
 
 #interfaz form button{
@@ -109,13 +111,7 @@ body{
 	margin: 1rem 4rem;
 	display: flex;
 	justify-content: center;
-	background: var(--color4);
-	color: var(--colorText);
 	font-family: 'Inconsolata', monospace;
-	-webkit-box-shadow: inset -10px 10px 0px -3px var(--color10);
-	-moz-box-shadow: inset -10px 10px 0px -3px var(--color10);
-	box-shadow: inset -10px 10px 0px -3px var(--color10);
-	border-radius: 10px;
 }
 
 #types ul li{
@@ -163,14 +159,8 @@ body{
 	width: 80%;
 	max-height: 120px;
 	min-height: 120px;
-	background: var(--color4);
-	border-radius: 10px;
 	padding: 1rem;
-	color: var(--colorText);
 	font-family: 'Inconsolata', monospace;
-	-webkit-box-shadow: inset -10px 10px 0px 0px var(--color10);
-	-moz-box-shadow: inset -10px 10px 0px 0px var(--color10);
-	box-shadow: inset -10px 10px 0px 0px var(--color10);
 	overflow-y: auto;
 }
 
@@ -273,6 +263,14 @@ body{
 }
 /**/
 
+.display{
+	background: var(--color4);
+	color: var(--colorText);
+	-webkit-box-shadow: inset -10px 10px 0px -3px var(--color10);
+	-moz-box-shadow: inset -10px 10px 0px -3px var(--color10);
+	box-shadow: inset -10px 10px 0px -3px var(--color10);
+	border-radius: 10px;
+}
 
 
 /**/
