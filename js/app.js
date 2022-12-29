@@ -79,6 +79,7 @@ const controladorAplicacion = (data)=>{
 	Cargando();
 	if (isNaN(data)){
 		//console.log('letra');
+                data = data.toLowerCase();
 		resultFromLS = OptenerDatosLocalStorage(data,null);
 	}
 	else{
